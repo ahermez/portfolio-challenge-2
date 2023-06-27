@@ -1,71 +1,52 @@
 header {
     text-align: center;
     padding: 50px;
-    background-image: url("..images\image4.jpeg");
     color: rgb(7, 32, 94);
     font-size: larger;
 }
 
-#header-image {
-    background-image: url("..images\image4.jpeg");
+.img-me {
+    width: 30rem;
+    box-shadow: 4px 4px 8px 1px #00000075;
+    border-radius: 2px;
+   }
+ 
+.img-me img{
     width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: .8;
+   }
+.main-image-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.img-me {
-    width: 250px;
-    height: 200px;
-    background-image:url(images/me.jpg);
+.info-container {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -3%;
 }
-   /* Adjust the height according to your needs */
-  /* } */
-.container-teamwork {
-    padding: 0px;
+
+.container-team-work {
+    width: 50rem;
+    padding: 5rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center; 
    
-  
-    /* position: center;
-    bottom: 0; */
-    /* transform: translateX(-50%); */
-    /* justify-content: center;
+}  
+
+.team-work-wrapper{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    position: flex;
-    height: 400px; */
-  
+    justify-content: center; 
 }
-  .img-teamwork {
-    position: absolute;
-    bottom: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-   
-    
-    /* max-width: 100%;
-    max-height: 100%; */
-    /* display: center;
-    width: 100px;
-    height: 100px;
-    background-image:url(images/teamwork.jpg);
-    position: relative; */
-    /* margin-left: 50%;
-    margin-right: 50%; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* transform: translateX(-50%); */
-  }
-    /* Adjust the value to move the photo up */
-   
-  
+
+.container-team-work img{
+    width: 100%;
+    box-shadow: 4px 4px 8px 1px #00000075;
+    border-radius: 2px; 
+
+}
 
 main {
     display: flex;
@@ -156,6 +137,7 @@ ul li {
     flex-direction: row;
     justify-content: space-around;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 #work {
@@ -164,19 +146,15 @@ ul li {
     
 }
 
-.work-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
+.smaller-images img{
+    width: 100%;
+  
 }
 
-.work-image1 {
+.smaller-images{
     width: 20rem;
-    height: 20rem;
     box-shadow: 4px 4px 8px 1px #00000075;
     border-radius: 2px;
-    
 }
 
 #contact {
@@ -195,7 +173,5 @@ ul li {
         display:block;
         
     }
-.info-container {
-    display: block;
-}
+
 }
