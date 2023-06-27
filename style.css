@@ -7,13 +7,15 @@ header {
 
 .img-me {
     width: 30rem;
-    box-shadow: 4px 4px 8px 1px #00000075;
-    border-radius: 2px;
+    /* box-shadow: 4px 4px 8px 1px #00000075;
+    border-radius: 2px; */
    }
  
 .img-me img{
-    width: 100%;
+    width: 40%;
+    
    }
+
 .main-image-wrapper{
     display: flex;
     flex-direction: column;
@@ -91,27 +93,24 @@ ul li {
 
 #about p {
     margin: 20px;
-   }
+
+}
 
 #about h1 {
     padding: 50px;
     border-right: 5px solid black;
-    /* flex: 0 0 5% */
     flex: 1;
 }
-/* #work  {
-} */
+
 #work h1 {
     padding: 50px;
     border-right: 5px solid black;
-    /* flex: 0 0 5% */
     flex: 1;
 }
 
 #contact h1 {
     padding: 50px;
     border-right: 5px solid black;
-    /* flex: 0 0 5% */
     flex: 1;
 }
 
