@@ -25,12 +25,13 @@ Images\code image 4.jpeg
 
 
 # For a full description of the project, visit the
-[project page](https://github.cgitom/ahermez/Portfolio/tree/0bade8dd2865399ffae1a5b0348708b7162adc71).
+[Project Page](https://github.cgitom/ahermez/Portfolio/tree/0bade8dd2865399ffae1a5b0348708b7162adc71).
 [Capture Portfolio](https://github.com/ahermez/Portfolio/assets/131738383/bac01dc7-7e5a-4dbf-b5ca-fdaa27ebaeab)
 
 # Project Reference
-[project page] <a href="https://ahermez.github.io/hybrid-tracker-project-1/">Hybrid Attendance Tracker</a>
-[GitHub page] <a href="https://github.com/ahermez/hybrid-tracker-project-1.git">Github Page</a>
+[GitHub page] <a href="https://github.com/ahermez/hybrid-tracker-project-1.git">Ahermez</a>
+<a href="https://ahermez.github.io/hybrid-tracker-project-1/">Hybrid Attendance Tracker</a>
+<a href="https://travelgeekalicia-bd545f74fdfc.herokuapp.com/">Travel Geek</a>
 
 
 
